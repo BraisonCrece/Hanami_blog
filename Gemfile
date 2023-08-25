@@ -27,6 +27,7 @@ end
 
 group :development, :test do
   gem "dotenv"
+  gem "debug", ">= 1.0.0"
 end
 
 group :cli, :development do

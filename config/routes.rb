@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+module Blog
+  class Routes < Hanami::Routes
+    root to: "home.show"
+    get "/home/:id", to: "home.show"
+    get "/articles", to: "articles.index"
+  end
+end
